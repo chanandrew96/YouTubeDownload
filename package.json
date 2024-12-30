@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "concurrently": "^9.1.1"
+  },
+  "scripts": {
+    "dev": "concurrently \"python manage.py runserver\" \"python manage.py tailwind start\""
+  }
+}

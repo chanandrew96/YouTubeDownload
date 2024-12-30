@@ -11,6 +11,11 @@ fastapi dev .\main.py
 python manage.py runserver
 ```
 
+## Start Django with Tailwind
+``` bash
+python manage.py tailwind start
+```
+
 # Update requirements.txt
 ``` bash
 pip freeze > requirements.txt
